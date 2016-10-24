@@ -39,20 +39,21 @@ h1 {
 
 ul {
   list-style-type: none;
+  overflow: hidden;
   padding: 0;
 }
 
 li {
   font-size: 1.125rem;
-  display: inline-block;
-
 }
 
 a {
   text-decoration: none;
   color: #fff;
-  padding: 0.4rem 0.5rem;
-  border: 3px solid #a63f38;
+  padding: 0.5rem;
+  float: left;
+  width: 33.333%;
+  border: 1.5px solid #a63f38;
 }
 
 a:hover {
